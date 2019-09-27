@@ -1,0 +1,63 @@
+Xft.rgba:      rgba
+Xft.antialias: 1
+URxvt*font:9x15,xft:TerminessTTFNerdFontMono
+! URxvt
+URxvt.modifier: mod1
+URxvt*loginShell: true
+URxvt*dynamicColors: on
+URxvt.imLocale: en_US.UTF-8
+URxvt.saveLines: 5000
+URxvt.scrollBar: false
+URxvt.scrollstyle: plain
+URxvt*termName: xterm-256color
+URxvt.transparent: true
+urxvt*shading: 30
+URxvt.visualBell: false
+URxvt.letterSpace: -1
+
+! Paste with shift-ctrl-v
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+! Colors
+*.boldMode: true
+*.colorBDMode: false
+!*.colorBD: cyan
+
+! Base16 Eighties
+#define col1 #4f97d7
+#define col2 #ee3333
+#define col3 #d75f87
+#define col4 #dd75dd
+#define col5 #875faf
+#define col6 #d75f87
+#define col7 #4f97d7
+#define col8 #ececec
+
+.foreground:   #33ccee
+*.cursorColor:  col8
+*.cursorBlink: true
+
+*.color0:       #000000
+*.color1:       col2
+*.color2:       col3
+*.color3:       col4
+*.color4:       col5
+*.color5:       col6
+*.color6:       col7
+*.color7:       col8
+*.color8:       #000000
+*.color9:       col2
+*.color10:      col3
+*.color11:      col4
+*.color12:      col5
+*.color13:      col6
+*.color14:      col7
+*.color15:      col8
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06
